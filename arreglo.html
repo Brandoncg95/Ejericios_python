@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .form-container {
+            max-width: 400px;
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container text-center">
+        <img src="Captura de pantalla 2023-03-15 190814.png" alt="Logo de Cabesoft" class="img-fluid"> 
+        <div class="form-container">
+            <form action="#">
+                <div class="form-group text-center">
+                    <h2 class="fw-bold text-center pt-5">Ingresar</h2>    
+                </div>
+                
+                <div class="input-group">
+                    <label for="email" class="form-label mb-0"></label>
+                    <input type="email" class="form-control" name="email" placeholder="Ingrese su correo" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="password" class="form-label mb-0"></label>
+                    <input type="password" class="form-control" name="password" placeholder="Ingrese su contraseña" required>
+                </div>
+                
+                <div class="form-group mb-1">
+                    <input type="checkbox" name="connected" class="form-check-input">
+                    <label for="connectd" class="form form-check-label"> Mantenerme conectado</label>
+                </div>
+                
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
+                </div>
+                
+                <div class="my-3">
+                    <span>© 2023</span> 
+                </div>
+            </form>
+        </div>
+    </div>        
+</body>
+</html>
+
